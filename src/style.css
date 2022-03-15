@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+}
+.header--img{
+    height: 100%;
+    margin-right: 6px;
+    background-color: white;
+}
+.header--title{
+    font-size: 1.25rem;
+    margin-right: auto;
+}
+
+.header--project{
+    font-size: 0.75rem;
+    margin-right: 10px, auto;
+    font-weight: 500;
+}
+main{
+    padding: 36px;
+}
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+    gap: 17px;
+     align-items: center;
+}
+.form--button{
+    font-family: "Karla", sans-serif;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    grid-column: 1 / -1;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+}
+.form--input{
+    font-family: "Karla", sans-serif;
+    border-radius: 5px;
+    border: 1px solid;
+    text-indent: 5px;
+
+}
